@@ -33,7 +33,14 @@ public void setup()
 public boolean palindrome(String word)
 {
   //your code here
-  return false;
+  	for(int i = 0; i <= word.length() / 2; i++){
+  		for(int j  = word.length() - 1; j >= word.length() / 2; j--){
+  			if(word.charAt(i) != word.charAt(j))
+  				System.out.println(5555555);
+  				return false;
+  		}
+  	}
+  	return true;
 }
 
   static public void main(String[] passedArgs) {
